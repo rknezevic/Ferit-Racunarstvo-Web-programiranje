@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-left: 20px; 
+}
+.navbar a {
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #bdc7d8;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.menu {
+    color: rgb(0, 0, 0);
+    display: flex; 
+    justify-content: center;
+    flex-grow: 1; 
+}
+.menu a {
+    margin-left: 60px; 
+}
+.contact-link {
+    padding-left: 20px;
+    margin-right: 30px;
+    padding-right: 20px;
+    color: purple;
+}
+.contact-link a {
+    color: #ae58ae; 
+    border: 1px solid #ae58ae; 
+    border-radius: 7px; 
+    padding: 8px 12px; 
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-link a:hover {
+    background-color: #ae58ae; 
+    color: white; 
+}
+
+.responsive-img {
+    max-width: 700px;
+    max-height: 700px;
+    height: auto; 
+    display: block; 
+    margin: auto; 
+}
+
+.container {
+    padding-top:100px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paragraphs {
+    float: left;
+    text-align: center; 
+}
+
+.para1 {
+    font-weight: bold; 
+}
+
+.para2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: -10px; 
+
+}
+.para3{
+    margin-top: -10px; 
+
+}
+
+.button-link a {
+    display: inline-block; 
+    margin-top: 20px; /* Prostor između teksta i gumba */
+    padding: 10px 20px; /* Veličina paddinga unutar gumba */
+    background-color: #7712b6; /* Ljubičasta pozadina */
+    color: white; /* Boja teksta */
+    border: 2px solid #7712b6; /* Boja obruba */
+    border-radius: 5px; /* Zaobljeni rubovi */
+    text-decoration: none; /* Uklanja podvučen link */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Glatka tranzicija */
+}
+
+.button-link a:hover {
+    background-color: white; /* Promjena boje pozadine na hover */
+    color: #7712b6; /* Promjena boje teksta na hover */
+    border-color: #7712b6; /* Promjena boje obruba na hover */
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu {
+        flex-direction: column; 
+        align-items: flex-start; 
+    }
+    .menu a {
+        margin-left: 0;
+    }
+    .contact-link {
+        width: 100%;
+        padding: 10px 0;
+        margin-left: 0;
+    }
+
+}
