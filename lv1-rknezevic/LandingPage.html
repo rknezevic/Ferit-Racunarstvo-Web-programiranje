@@ -1,40 +1,179 @@
 <!DOCTYPE html>
 <html lang="hr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page</title>
     <link rel="stylesheet" href="styles/LandingPageStyle.css">
 </head>
+
 <body>
-    <div class="navbar">
-       <div class="logo">
-            <img src="Logo.png" alt="Logo" style="height: 30px;">
-        </div>
-        <div class="menu">
-            <a href="#home">Home</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#about">About Me</a>
-            <a href="#testimonials">Testimonials</a>
-        </div>
-        <div class="contact-link">
-            <a href="#contact">Contact Me</a>
-        </div>
-    </div>
-    <div class="container">
-        <div class="paragraphs">
-            <p class = "para1">Hey, I am John</p>
-            <p class = "para2">I create <span style = "color: blue"> product design </span> <br> and brand experience</p>
-            <p class = "para3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Suspendisse varius enim in eros elementum tristique.</p>
-            <div class = "button-link">
-                <a href = "#button"> Get In Touch </a>
+    <div class="first-page">
+        <div class="navbar">
+            <div class="logo">
+                <img src="Logo.png" alt="Logo" loading="lazy">
+            </div>
+            <div class="menu">
+                <a href="#home">Home</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#about">About Me</a>
+                <a href="#testimonials">Testimonials</a>
+            </div>
+            <div class="contact-link">
+                <a href="#contact">Contact Me</a>
             </div>
         </div>
-        <div class="image">
-            <img src="lik.png" alt="Šef" class = "responsive-img">
+        <div class="first-page-container">
+            <div class="paragraphs">
+                <p class="para1">Hey, I am John</p>
+                <p class="para2">I create <span style="color: blue"> product design </span> <br> and brand experience
+                </p>
+                <p class="para3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Suspendisse varius enim in
+                    eros elementum tristique.</p>
+                <div class="button-link">
+                    <a href="#button"> Get In Touch </a>
+                </div>
+            </div>
+            <div class="image">
+                <img src="lik.png" alt="Šef" class="responsive-img" loading="lazy">
+            </div>
         </div>
     </div>
 
-    
+    <div class="skills-container">
+        <div class="section-header">
+            <p class="section-title">My Skills</p>
+            <h2 class="section-subtitle">My Expertise</h2>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <img src="product-chain 1.png" alt="" class="skill-icon" loading="lazy" />
+                <h3 class="skill-name">Strategy & Direction</h3>
+                <p class="skill-description">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.<br>
+                    Suspendisse varius
+                    enim in eros<br> elementum tristique.</p>
+            </div>
+            <div class="skill-card">
+                <img src="tag 1.png" alt="" class="skill-icon" />
+                <h3 class="skill-name">Branding & Logo</h3>
+                <p class="skill-description">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.<br>
+                    Suspendisse varius
+                    enim in eros<br> elementum tristique.</p>
+            </div>
+            <div class="skill-card">
+                <img src="feather-pen 1.png" alt="" class="skill-icon" loading="lazy" />
+                <h3 class="skill-name">UI & UX Design</h3>
+                <p class="skill-description">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.<br>
+                    Suspendisse varius
+                    enim in eros<br> elementum tristique.</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="feather-pen 1-1.png" alt="" class="skill-icon" loading="lazy" />
+                <h3 class="skill-name">Webflow Development</h3>
+                <p class="skill-description">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.<br>
+                    Suspendisse varius
+                    enim in eros<br> elementum tristique.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="about">
+        <div class="additional-container">
+            <div class="left-container">
+                <div class="image-container">
+                    <img src="About Me.png" alt="aboutMeImage" loading="lazy">
+                </div>
+            </div>
+            <div class="right-container">
+                <p class="section-title">About</p>
+                <h2 class="section-subtitle">About me</h2>
+                <p class="section-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                    varius faucibus massa sollicitudin amet augue. Nibh metus a semper
+                    purus mauris duis. Lorem eu neque, tristique quis duis. Nibh
+                    scelerisque ac adipiscing velit non nulla in amet pellentesque.
+                    <br /> <br />
+                    Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur
+                    eget commodo vitae.Amet pellentesque sit pulvinar lorem mi a,
+                    euismod risus r.
+                </p>
+                <button class="btn-primary">Contact Me</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="blog" role="region" aria-labelledby="blog-section-title">
+        <div class="blog-text">
+            <div class="blog-text-1">
+                <h3>Recent Projects</h3>
+                <div class="title">My Portfolio</div>
+            </div>
+            <div class="blog-text-2">
+                <img class="social-icon" alt="Social icon image" src="photos/Social icon.png" loading="lazy"/>
+                <div class="title-2">Visit My Dribbble</div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <div class="card-img">
+                    <img src="Placeholder/Image.png" alt="Ahuse image" src="./photos/blog1.png" loading="lazy"/>
+                </div>
+                <div class="card-content">
+                    <h2>Ahuse</h2>
+                    <br>
+                    <div class="lorem-ipsum-2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
+                    </div>
+                    <div class="avatar">
+                        <div class="bottom-line">View in Dibbble </div>
+                        <img class="vector-icon" alt="Arrow" src="./photos/arrow.png" loading="lazy"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="Placeholder/Image-1.png" alt="App Dashboard" loading="lazy"/>
+                </div>
+                <div class="card-content">
+                    <h2>App Dashboard</h2>
+                    <br>
+                    <div class="lorem-ipsum-2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
+                    </div>
+                    <div class="avatar">
+                        <div class="bottom-line">View in Dibbble </div>
+                        <img class="vector-icon" alt="Arrow" src="./photos/arrow.png" loading="lazy"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="Placeholder/Image-2.png" alt="Easy Rent" loading="lazy"/>
+                </div>
+                <div class="card-content">
+                    <h2>Easy Rent</h2>
+                    <br>
+                    <div class="lorem-ipsum-2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
+                    </div>
+                    <div class="avatar">
+                        <div class="bottom-line">View in Dibbble </div>
+                        <img class="vector-icon" alt="Arrow" src="./photos/arrow.png" loading="lazy"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
 </body>
+
 </html>
