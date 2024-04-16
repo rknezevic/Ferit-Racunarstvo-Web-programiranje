@@ -1,6 +1,6 @@
 # LV 1 zadatak - Osobna stranica
 
-### LINK: 
+### LINK: Iz nekog razloga nije mi htjelo napraviti link za stranicu, lp
 
 <hr />
 
